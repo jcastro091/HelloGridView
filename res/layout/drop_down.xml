@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    	<Spinner
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="0dp"
+        android:background="@drawable/home_drop" />
+        <Spinner
+        android:id="@+id/discover_drop"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/home"
+        android:layout_margin="0dp"
+        android:background="@drawable/discover_drop" />
+        <Spinner
+        android:id="@+id/churp_drop"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/home_discover"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_drop" />
+        <Spinner
+        android:id="@+id/profile_drop"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/churp_drop"
+        android:layout_margin="0dp"
+        android:background="@drawable/profile_drop" />
+    </LinearLayout>

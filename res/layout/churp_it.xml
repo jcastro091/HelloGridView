@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/actionable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/churp_orange_header"
+        android:padding="0dp" >
+
+        <ImageButton
+            android:id="@+id/c"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/action_btn_churp_icon"
+            android:layout_alignTop="@+id/action_logo"
+            android:layout_margin="0dp"
+            android:background="@drawable/churp_it_header_btn" />
+
+        <ImageView
+            android:id="@+id/action_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/c"
+            android:src="@drawable/churp_it_header" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tag_box"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/actionable"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_it_tag_box" />
+
+    <ImageButton
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tag_box"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_it_category" />
+
+    <ImageButton
+        android:id="@+id/churp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/category"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_it_churp2" />
+
+    <ImageButton
+        android:id="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/churp"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_it_fb" />
+
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fb"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_it_twitter" />
+    
+     <ImageButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/twitter"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_it_button" />
+
+
+   
+</RelativeLayout>

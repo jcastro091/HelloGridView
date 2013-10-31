@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Max">100</integer>
+    <integer name="Progress">10</integer>
+    <integer name="Slow">1</integer>
+</resources>

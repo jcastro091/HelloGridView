@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hellogridview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hellogridview.MainActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.hellogridview.record"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.loading"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.discover"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.row_temp"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.drop_down"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.record_next"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.Profile"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.Feed"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.loading_2"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+		<activity
+            android:name="com.example.hellogridview.loading_3"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.Preview"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.churp_it"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.Splash_page"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.CustomSpinner"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.progessbar"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.MyProgessDialog"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.example.hellogridview.choose_category"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+         <activity
+            android:name="com.example.hellogridview.AudioRecord"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+
+        </activity>
+    </application>
+
+</manifest>

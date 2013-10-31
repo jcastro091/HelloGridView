@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/actionable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="0dp" >
+
+        <ImageButton
+            android:id="@+id/done"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/action_btn_churp_icon"
+            android:layout_alignTop="@+id/action_logo"
+            android:layout_margin="0dp"
+            android:background="@drawable/done" />
+
+        <ImageView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/done"
+            android:background="@drawable/choose_cat" />
+
+        <Button
+            android:id="@+id/news"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/singing"
+            android:layout_alignParentRight="true"
+            android:background="#fdf7ab"
+            android:src="@drawable/jokes"
+            android:text="News"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/sports"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/singing"
+            android:layout_alignBottom="@+id/singing"
+            android:layout_alignParentRight="true"
+            android:background="#fdf7ab"
+            android:src="@drawable/jokes"
+            android:text="Sports"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/stories"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/singing"
+            android:layout_alignBottom="@+id/singing"
+            android:layout_alignParentLeft="true"
+            android:background="#fdf7ab"
+            android:src="@drawable/freestyle"
+            android:text="Stories"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/animals"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#fdf7ab"
+            android:src="@drawable/jokes"
+            android:text="Animals"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/word"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/other"
+            android:layout_alignParentBottom="true"
+            android:background="#fdf7ab"
+            android:src="@drawable/freestyle"
+            android:text="Word"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/yo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#fdf7ab"
+            android:src="@drawable/freestyle"
+            android:text="Yo"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/jokes"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/done"
+            android:background="#fdf7ab"
+            android:src="@drawable/jokes"
+            android:text="Jokes"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/freestyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/singing"
+            android:layout_below="@+id/category"
+            android:background="#fdf7ab"
+            android:src="@drawable/freestyle"
+            android:text="Freestyle"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/singing"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/freestyle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp"
+            android:background="#fdf7ab"
+            android:src="@drawable/freestyle"
+            android:text="Singing"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/weather"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/other"
+            android:layout_alignBottom="@+id/other"
+            android:layout_alignParentLeft="true"
+            android:background="#fdf7ab"
+            android:src="@drawable/freestyle"
+            android:text="Weather"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/other"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/yup"
+            android:layout_alignBottom="@+id/yup"
+            android:layout_alignLeft="@+id/singing"
+            android:background="#fdf7ab"
+            android:src="@drawable/freestyle"
+            android:text="Other"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/yup"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/sports"
+            android:layout_marginTop="54dp"
+            android:background="#fdf7ab"
+            android:src="@drawable/jokes"
+            android:text="Yup"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

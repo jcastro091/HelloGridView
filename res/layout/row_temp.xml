@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/actionable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/churp_orange"
+        android:padding="0dp" >
+
+        <ImageView
+            android:id="@+id/action_logo"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/action_logo" />
+
+        <Spinner
+            android:id="@+id/c"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/action_btn_churp_icon"
+            android:layout_alignTop="@+id/action_logo"
+            android:layout_margin="0dp"
+            android:background="@null"
+            android:src="@null" />
+
+        <ImageButton
+            android:id="@+id/action_btn_churp_icon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/action_logo"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/churp_icon" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/c"
+            android:layout_alignLeft="@+id/c"
+            android:layout_alignRight="@+id/c"
+            android:layout_alignTop="@+id/c"
+            android:background="@drawable/tab_search" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/discover"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_below="@+id/actionable"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp"
+        android:background="@drawable/discover" />
+
+    <Button
+        android:id="@+id/churp_staff"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_below="@+id/discover"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp"
+        android:background="@drawable/churp_staff_picks" />
+
+    <Button
+        android:id="@+id/most_popular"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_below="@+id/churp_staff"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp"
+        android:background="@drawable/most_pop" />
+
+    <Button
+        android:id="@+id/freestyle"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/most_popular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/freestyle"
+        android:text="Freestyle"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/jokes"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/freestyle"
+        android:layout_below="@+id/most_popular"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/jokes"
+        android:text="Jokes"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/news"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/most_popular"
+        android:layout_marginRight="5dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/jokes"
+        android:text="News"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/singing"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/stories"
+        android:layout_below="@+id/freestyle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="26dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/freestyle"
+        android:text="Singing"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/stories"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/freestyle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/freestyle"
+        android:text="Stories"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/stories"
+        android:layout_below="@+id/news"
+        android:layout_marginRight="5dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/jokes"
+        android:text="Sports"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/singing"
+        android:layout_below="@+id/singing"
+        android:layout_marginTop="26dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/freestyle"
+        android:text="Weather"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/other"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/stories"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/freestyle"
+        android:text="Other"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/yup"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/other"
+        android:layout_below="@+id/sports"
+        android:layout_marginRight="5dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/jokes"
+        android:text="Yup"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/word"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/freestyle"
+        android:text="Word"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/animals"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/jokes"
+        android:text="Animals"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/yo"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:background="#fdf7ab"
+        android:src="@drawable/freestyle"
+        android:text="Yo"
+        android:textSize="12sp" />
+
+</RelativeLayout>

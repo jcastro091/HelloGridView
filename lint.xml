@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/discover.xml" />
+    </issue>
+    <issue id="Orientation">
+        <ignore path="res/layout/profile.xml" />
+    </issue>
+</lint>
